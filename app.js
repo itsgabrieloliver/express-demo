@@ -3,6 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
+	console.log(req)
 	res.send("hello zain this is from my source code!")
 })
 
