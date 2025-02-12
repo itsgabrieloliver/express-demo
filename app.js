@@ -7,10 +7,6 @@ app.get('/', (req, res) => {
 	res.send("hello zain this is from my source code!")
 })
 
-app.get('/test', (req, res) => {
-	res.send('test')
-})
-
 app.get('/ping', (req, res) => {
 	res.send('pong')
 })
