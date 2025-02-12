@@ -15,6 +15,10 @@ app.get('/hello', (req, res) => {
 	res.send('hello')
 })
 
+app.get('/bye', (req, res) => {
+	res.send('bye')
+})
+
 app.listen(port, () => {
 	console.log('running')
 })
