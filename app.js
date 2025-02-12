@@ -11,6 +11,10 @@ app.get('/ping', (req, res) => {
 	res.send('pong')
 })
 
+app.get('/hello', (req, res) => {
+	res.send('hello')
+})
+
 app.listen(port, () => {
 	console.log('running')
 })
