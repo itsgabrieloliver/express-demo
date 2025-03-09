@@ -4,6 +4,7 @@ const port = 8080;
 
 app.get("/", (req, res) => {
   console.log(req.ip);
+  console.log("New request!");
   res.send("hello zain this is from my source code!");
 });
 
