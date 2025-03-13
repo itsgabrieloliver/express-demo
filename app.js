@@ -4,7 +4,7 @@ const port = 8080;
 
 app.get("/", (req, res) => {
   console.log(req.ip);
-  console.log("New request!");
+  console.log("new request!");
 });
 
 app.get("/ping", (req, res) => {
