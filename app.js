@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/ping", (req, res) => {
-  res.send("pls work 3!");
+  res.send("you better work, or else...");
 });
 
 app.get("/testing", (req, res) => {
