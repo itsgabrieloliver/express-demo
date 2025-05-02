@@ -11,7 +11,7 @@ app.get("/ping", (req, res) => {
   res.send("pls work...");
 });
 
-app.get("/testing", (req, res) => {
+app.get("/testingc", (req, res) => {
   res.send("testing testinsg!!!");
 });
 
