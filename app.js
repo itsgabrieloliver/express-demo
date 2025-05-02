@@ -12,7 +12,7 @@ app.get("/ping", (req, res) => {
 });
 
 app.get("/testing", (req, res) => {
-  res.send("testing testing!!!");
+  res.send("testing testinsg!!!");
 });
 
 app.get("/hello", (req, res) => {
