@@ -8,11 +8,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/ping", (req, res) => {
-  res.send("pls work...");
+  res.send("pong...");
 });
 
 app.get("/testingc", (req, res) => {
-  res.send("testing testinsg!!!");
+  res.send("testing 123!!!");
 });
 
 app.get("/hello", (req, res) => {
